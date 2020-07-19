@@ -30,7 +30,7 @@
 #define count_leading_zeroes(n) __builtin_clzll(n)
 #define count_trailing _zeroes(n) __builtin_ctzll(n)
 using namespace std;
-/*Commonly used functions
+//Commonly used functions
 long long int max_ll(long long int a, long long int b){
 	return (a>b?a:b);
 }
@@ -56,7 +56,13 @@ long long int compute_total_divisors(long long int n){
 bool check_perfect_square(long long int n){
 	return compute_total_divisors(n) % 2 ? true : false;
 }    
-*/    
+bool isPrime(long long int n)
+{
+	if (compute_total_divisors(n)==2)
+		return true;
+	else
+		return false;
+} 
 int main()
 {
 	FAST_IO(0);
