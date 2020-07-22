@@ -2,13 +2,7 @@
 #include <bits/stdc++.h>
 #define ull_t unsigned long long int
 #define ll_t long long int 
-#define FAST_IO(value) std :: ios :: sync_with_stdio(value); std :: cin.tie(NULL); std :: cout.tie(NULL)
-#define si(x) scanf("%d", &x)
-#define sl(x) scanf("%lld", &x)
-#define ss(s) scanf("%s", s)
-#define pi(x) printf("%d\n", x)
-#define pl(x) printf("%lld\n", x)
-#define ps(s) printf("%s\n", s)
+#define FAST_IO(val) std :: ios :: sync_with_stdio(val); std :: cin.tie(NULL); std :: cout.tie(NULL)
 #define debug(x) cout << #x << "=" << x << endl
 #define debug2(x, y) cout << #x << "=" << x << "," << #y << "=" << y << endl
 #define f(i,n) for (int i=0; i<n; i++)
@@ -30,7 +24,7 @@
 #define count_leading_zeroes(n) __builtin_clzll(n)
 #define count_trailing _zeroes(n) __builtin_ctzll(n)
 using namespace std;
-//Commonly used functions
+/*Commonly used functions
 long long int max_ll(long long int a, long long int b){
 	return (a>b?a:b);
 }
@@ -63,11 +57,12 @@ bool isPrime(long long int n)
 	else
 		return false;
 } 
+*/
 int main()
 {
 	FAST_IO(0);
 	int t;
-	si(t);
+	cin >> t;
 	while (t--)
 	{
 		//code
